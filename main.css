@@ -1,0 +1,477 @@
+.none2{
+    display:none;
+}
+.header{
+    background-color:#2b2b2b;
+    height:100px;
+}
+.header .logo-container{
+    float:left;
+    margin:30px;
+}
+.header .three-lines{
+    float:right;
+    margin:40px;
+}
+.header .three-lines .hover{
+    display:none;
+}
+.header .three-lines:hover .hover{
+    display:block;
+}
+.header .three-lines:hover .main{
+    display:none;
+}
+.main-head .heading{
+    margin-top:80px;
+    max-width:848px;
+}
+.main-head .background{
+    background-image:url('./image/image.png');
+    position:relative;
+    
+}
+.main-head .background .text {
+    margin-bottom:30px;
+    max-width: 630px;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.35);
+}
+.main-head .background .inner-div{
+    position: absolute;
+    top: 272px;
+    left: 109px;
+}
+.main-head .background .aero-bottom{
+    position:absolute;
+    bottom:24.5px;
+    left:24.5px;
+}
+.main-head .background .box-bottom{
+    width: 412px;
+    height: 105px;
+    background-color:#ffffff;
+    position:absolute;
+    right:0;
+    bottom:0;
+}
+.main-head .background .box-bottom .inner-box{
+    margin:24px;
+    display:flex;
+    margin-bottom:15px;
+}
+.main-head .background .box-bottom h3{
+    color:#2b2b2b;
+    margin-left:24.5px
+}
+.main-head .background .box-bottom .inner-box .img{
+    width: 15px;
+    height: 15px;
+    
+    margin: 1px 20px;
+}
+.section1 .middle-text{
+    text-align:center;
+    max-width:847px;
+    margin:64px auto;
+   
+}
+.section1 .middle-text p{
+    max-width:630px;
+    text-align:center;
+    margin: 24px auto 36px auto;
+}
+.section1 .background{
+    background-image:url('./image/App-Ui-Screen-Mockup-Smartphone-Presentation-Avelina-Studio-001.png');
+    margin: 30px auto 0 auto;
+    display:flex;
+    align-items:center;
+    justify-items: center;
+}
+
+.section1 .background .play{
+    margin:auto;
+}
+.section2{
+    margin-top:80px;
+}
+.section2 h2{
+    font-size: 80px;
+}
+.section2 .top{
+    margin-top:64px;
+    column-count: 3;
+}
+
+.section2 .top2{
+    margin-top:80px;
+    column-count:3;
+}
+.section3{
+    background-color:#2b2b2b;
+    height: auto;
+    margin:80px 0;
+}
+.section3 h4{
+    color:#ffffff;
+}
+.section3 .text{
+    margin-top:80px;
+}
+.section3 .logos ul{
+    column-count:6;
+}
+.section3 .logos .mobile{
+    display:none;
+}
+
+
+
+.section4{
+    margin-bottom:80px;
+}
+.section4 .divisions{
+    margin-top:64px;
+}
+.section4 .divisions .para h4{
+    font-family: 'EB Garamond';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+}
+.section4 .divisions .para{
+    margin-bottom:32px;
+}
+
+.section4 .divisions h5{
+    margin-top:4px;
+}
+.section4 .divisions .card2{
+    margin-top:65px;
+}
+.section4 .divisions .card3{
+    margin-top:125px;
+}
+.section5{
+    background-color:#F4F5F7;
+    padding:80px 0;
+}
+.section5 .head-part .head1{
+    margin-bottom: 15px;
+}
+.section5 .head-part p{
+    max-width: 848px;
+    font-size: 16px;
+}
+.section5 .bottom{
+    margin-top:32px;
+}
+.section5 .right-col img{
+    width: 1440px;
+
+}
+.section6{
+    margin:80px 0 0 0;
+}
+.section6 h4{
+    margin:16px 0;
+}
+.section6 .bottom{
+    column-count:3;
+    margin-top:66px;
+}
+.section6 .card3 .img1{
+    position:relative;
+}
+.section6 .card3 .img1 .right{
+    position:absolute;
+    right:0;
+    bottom:0;
+}
+.footer{
+    background-color:#1a1b24;
+    margin-top:80px;
+}
+.footer .head{
+    margin-top:80px;
+    margin-bottom:52px;
+}
+.footer .part1 ul{
+    padding-left:0;
+}
+.footer .part1 .left-col li{
+    font-size:25px;
+    font-weight:700;
+    color:#ffffff;
+    list-style-type:none;
+    text-align:left;
+    padding:20px 0;
+}
+.footer .part1 .mid-col li{
+    font-size:25px;
+    font-weight:700;
+    color:#ffffff;
+    list-style-type:none;
+    text-align:left;
+    padding:20px 0;
+}
+.footer .part1 .right-col li{
+    font-size:16px;
+    font-weight:700;
+    color:#ffffff;
+    list-style-type:none;
+    text-align:left;
+    padding:15px 0;
+}
+.footer .part1{
+    border-bottom:1px solid #75757c;
+    padding-bottom:30px;
+}
+.footer .part2 h3{
+    font-size:37px;
+    color:#ffffff;
+    margin-bottom:30px;
+    font-weight:700;
+    text-align: left;
+    margin-bottom:0;
+}
+.footer .part2 p{
+    font-size:16px;
+    padding-top:16px;
+    color:#ffffff;
+}
+.footer .part2{
+    border-bottom:1px solid #75757c;
+    padding-bottom:30px;
+}
+.footer .part2 a{
+    margin-top: 30px;
+    float: right;
+    padding: 14px 52px;
+}
+.footer .part2 .left-col{
+    margin-top:20px;
+}
+
+.footer .part3 p{
+    font-weight: 500;
+    font-size: 12px;
+    color:#ffffff;
+    float:left;
+    letter-spacing: -0.5px;
+}
+.footer .part3 li{
+    font-weight: 500;
+    font-size: 12px;
+    color:#ffffff;
+    letter-spacing: -0.5px;
+    display: initial;
+    padding: 0 20px;
+}
+.footer .part3{
+    margin-top:38px;
+}
+.footer .part3 ul{
+    float:right;
+}
+
+
+
+
+
+
+
+/*Mobile view*/
+
+@media(min-width:280px) and (max-width:767px){
+    
+    .none{
+        display:none;
+    }
+    .none2{
+        display:block;
+    }
+    .inter{
+        display:flex;
+        flex-direction:column-reverse;
+    }
+    .background{
+        margin: 0px auto !important;
+    }
+    .header{
+        height:60px;
+    }
+    .header .logo-container {
+      
+        margin: 15px;
+    }
+    .header .three-lines {
+        
+        margin: 20px;
+    }
+    .main-head .heading h1{
+        font-size: 34px;
+    }
+    .main-head .text h3{
+        font-size:28px;
+    }
+    .main-head .heading {
+        margin: 40px 0;
+    }
+    .main-head .background {
+        height:599px;
+        margin: 40px auto;
+     
+    }
+    .main-head .background .inner-div {
+        position: absolute;
+        top: 142px;
+    bottom: auto;
+    left: 16px;
+    }
+    .main-head .background .box-bottom{
+    width: 269px;
+
+    }
+    .main-head .aero-bottom{
+        display:none;
+    }
+    .main-head .background .box-bottom h3{
+        margin-left: 24.5px;
+    font-size: 34px;
+    
+    }
+    .section1{
+        margin-top: 40px;
+    }
+    .section1 .middle-text h2{
+        font-size:40px;
+    }
+    .section1 .middle-text{
+        text-align:left;
+        margin:50px auto;
+    }
+    .section1 .middle-text p{
+        text-align:left;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .section2 .top2 {
+        margin-top: 0px;
+        column-count:1;
+    }
+    .section2 h2{
+        font-size:56px;
+    }
+    .section2 {
+        margin-top: 40px;
+    }
+    .section2 .top {
+        margin-top: 40px;
+        column-count:1;
+    }
+    .section3 .text {
+        margin-top: 40px;
+    }
+    .section3 {
+        background-color: #2b2b2b;
+        height: auto;
+        margin: 40px 0;
+        
+    }
+    
+    .section3 .logos ul{
+            column-count:4;
+        }
+    .section3 .logos .mobile {
+            display:block;
+        }
+        .section3 .logos .inter{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+    .section4 .divisions {
+        margin-top: 20px;
+    }
+    .section4 .divisions .para h4 {
+        margin-top: 10px;
+    }
+    .section4 {
+        margin-bottom: 40px;
+    }
+    .section4 .divisions .card2 {
+        margin-top: 20px;
+       
+    }
+    .section4 .divisions .card3 {
+        margin-top: 20px;
+       
+    }
+    .section5 {
+        padding-top:40px;
+        }
+    
+    .section5 .right-col img{
+        margin-top: 42px;
+    }
+    .section6 {
+        margin: 40px 0;
+    }
+    .section6 .bottom{
+        column-count:1;
+    }
+    .section6 .bottom .card1 img{
+        width:100vw;
+    }
+    .section6 .bottom .card2{
+        display:none;
+    }
+    .section6 .bottom .card3{
+        display:none;
+    }
+    .footer {
+       
+        margin-top: 40px;
+    }
+    .footer .part1 ul{
+        margin-bottom: 0px;
+        margin-top: 0;
+    }
+   
+    .footer .part1 .left-col li{
+        margin:0 0 16px 0;
+        padding:0;
+    }
+    .footer .part1 .mid-col li{
+        margin:0 0 16px 0;
+        padding:0;
+    }
+    .footer .part1 .right-col{
+        margin-top:45px;
+    }
+    .footer .part1 .right-col li{
+        margin-bottom:0;
+    }
+    .footer .part2 h3 {
+        font-size: 28px;
+    }
+    .footer .part2 p{
+        margin-top:16px;
+    }
+    footer .part3{
+        position: relative;
+    }
+    .footer .part2 a {
+        margin-top: 30px;
+        float: left;
+    }
+    .footer .part3 ul{
+        float: none;
+        text-align: center;
+        margin-bottom:0;
+    }
+    .footer .part3 li {
+        
+        padding: 0px 4px;
+    }
+    
+}
